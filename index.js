@@ -14,4 +14,14 @@ document.addEventListener('DOMContentLoaded', () => {
 	const children = main.children;
 
 	console.log(children);
+
+	const li2 = document.querySelector('ul.ranked-list li ul li');
+
+	console.log(li2);
+
+	const browserli2 = document.querySelector(
+		'body > div:nth-child(4) > ul > li:nth-child(2) > div > ul > li'
+	);
+
+	console.log(browserli2);
 });
