@@ -19,9 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	console.log(li2);
 
-	const browserli2 = document.querySelector(
-		'body > div:nth-child(4) > ul > li:nth-child(2) > div > ul > li'
-	);
+	// Event listener
+	const button = document.getElementById('my-button');
 
-	console.log(browserli2);
+	button.addEventListener('click', function () {
+		console.log('Clicked');
+	});
 });
