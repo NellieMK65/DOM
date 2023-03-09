@@ -8,4 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	const elements = document.getElementsByClassName('banner');
 
 	console.log(elements.length);
+
+	const main = document.getElementsByTagName('main')[0];
+
+	const children = main.children;
+
+	console.log(children);
 });
